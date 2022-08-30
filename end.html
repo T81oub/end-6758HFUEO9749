@@ -10,28 +10,6 @@
         <link rel="stylesheet" href="stylespage.css">
 
         <title>END</title>
-        <script
-          src="https://code.jquery.com/jquery-3.4.1.js"
-          integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-          crossorigin="anonymous"></script>
-       <script>
-    function SubForm (){
-       $.ajax({
-        url:'https://api.apispreadsheets.com/data/No5amquVwtEd3awW/',
-        headers: {"accessKey": "YOUR_ACCESS_KEY", "secretKey": "YOUR_ACCESS_KEY"},
-        type:'post',
-        data:$("#myForm").serializeArray(),
-        success: function(){
-          
-          window.location.href="end.html";
-        },
-        error: function(){
-          alert("There was an error :(")
-        }
-    });
-   
-}
-</script>
     </head>
     <body>
         
@@ -122,16 +100,15 @@ output = a <br>
                             
                             <div class="complete_text">The last puzzle !</div>
                             <div class="score_text">
-                                <form id="myForm" >
-                                    <input name="puzzle" type="hidden"  value="last puzzle">
-                                    <label>Full Name</label>
-                                    <br/>
-                                    <input name="full_name" />
-                                    <input name="ii" type="hidden"  value="Puzzle2">
-                                  </form>
-                                  <div class="buttons">
-                                    <button onclick="SubForm()" class="start">Start Puzzle</button>
-                                  </div>
+                               <p>Nice job Even after you've solved every puzzle, the game is still not over. The objective of the puzzle game is the arrangement of a set of given pieces into a single and you already have 5 pieces .It's time to implement the solution that my family and I have been discussing.
+                                Best of luck!
+                               </p>
+                            </div>
+                            <div class="buttons">
+                                
+                                <form action="https://1drv.ms/w/s!AkpTxHm7bDCVgZc7Wuj8bnW3IybJzg?e=EteHme">
+                                    <input type="submit" class="start" value="Go to the last link" />
+                                </form>
                                 
                                 
                             </div>
@@ -142,6 +119,6 @@ output = a <br>
             </section>
             
             </main>
-        
+        <script src="index.js"></script>
     </body>
 </html>
