@@ -372,6 +372,29 @@ img{
 .newsletter__input::placeholder{
   color: var(--text-color);
 }
+.buttons .newsletter__input{
+  
+  height:75%;
+  border-radius: 10px;
+  padding: 0 .5rem;
+  border-color: rgb(0, 0, 0);
+  background:none;
+  color: black;
+  margin-right: 5px;
+}
+
+.buttons .newsletter__input::placeholder{
+  color: black;
+}
+.buttons .button{
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 1rem 1.75rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
+  transition: .3s;
+}
 
 
 /*===============  BREAKPOINTS ===============*/

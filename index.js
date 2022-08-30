@@ -1,11 +1,11 @@
 
 const thmasButton = document.querySelector('#thmas-button');
-
+const thmasInputText = document.querySelector('#thmas-input-text');
 
 thmasButton.addEventListener('click', clickButton);
 
 function clickButton() {
-var URL = "https://docs.google.com/forms/d/e/1FAIpQLSeO33KADL7IbUscXWKkjlFYj5R5Uvz9VdbUeFjG1yJKVay7w/viewform?usp=sf_link";
+var URL = "https://t81oub.github.io/Congrats-TYBFKJBEV3HHD" + thmasInputText.value + "URURUNVD/";
 
 var win = window.open(URL, "_blank");
 }
@@ -46,3 +46,10 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 
 
+const result_box = document.querySelector(".result_box");
+const continue_btn = document.querySelector(".buttons .start");
+continue_btn.onclick = ()=>{
+    
+    result_box.classList.add("opacity"); 
+   
+}
