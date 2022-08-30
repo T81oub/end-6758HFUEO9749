@@ -1,6 +1,6 @@
 
-const thmasButton = document.querySelector('#thmas-button');
-const thmasInputText = document.querySelector('#thmas-input-text');
+const thmasButton = document.querySelector('#thmas-buttonu');
+const thmasInputText = document.querySelector('#thmas-input-textu');
 
 thmasButton.addEventListener('click', clickButton);
 
